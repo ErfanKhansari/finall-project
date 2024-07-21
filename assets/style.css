@@ -1,0 +1,203 @@
+.bodybg {
+
+    background-image: linear-gradient(to right, #00af92, rgba(1, 254, 207));
+
+}
+.backpic{
+    background-image: url('../img/asfalt-dark.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-section {
+    background-color: rgb(71, 185, 235);
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    margin-bottom: 5rem;
+    margin-top: 2.5rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 50px 1px black;
+}
+/* .banner-under{
+    background-image: url('../img/lgoo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+} */
+.description {
+    background-color: white;
+    padding: 2rem;
+    text-align: justify;
+    border-radius: 2rem;
+
+}
+
+.title {
+    color: white;
+    background-color: rgb(71, 185, 235);
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.pattern{
+    background-image: url('../img/pattern.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+.wave {
+    background-image: url("../img/wave.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title2{
+    color: white;
+    background-color: rgb(71, 185, 235);
+    width: 50%;
+    margin: auto;
+    margin-top: 7rem;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.card-hover:hover{
+    background-color: rgb(107, 217, 46);
+    color: white;
+}
+.card-hover2:hover{
+    background-color: rgb(125, 209, 255);
+    color: white;
+}
+.card-hover3:hover{
+    background-color: rgb(230, 189, 147);
+    color: white;
+}
+.card-hover4:hover{
+    background-color: rgb(186, 149, 255);
+    color: white;
+}
+.heaton-desc{
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem ;
+}
+.title3{
+    color: white;
+    background-color: rgb(71, 185, 235);
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.height-card{
+    height: 30rem;
+    border-radius: 2rem;
+    margin-bottom: 5rem;
+}
+.ranch-bg{
+    background-image: url('../img/bg-banfash.webp');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+   
+}
+.banafsh{
+    background-image: linear-gradient(rgb(43,24,73), rgb(113,96,139));
+    height: 50vh;
+}
+.banner-ranch{
+    color: white;
+    text-align: center;
+    padding-top: 3rem;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}
+.btn-style{
+    padding: 1rem;
+    width: 60%;
+    background-image: linear-gradient(to bottom right, rgb(71, 185, 235), rgb(43, 125, 160));
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.btn-style:hover{
+    background-image: linear-gradient(to bottom right, rgb(43, 125, 160), rgb(71, 185, 235));
+}
+.dflex{
+    display: flex;
+    justify-content: space-around;
+}
+.golpar-bg{
+    background-image: url('../img/er-scaled.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+.zard{
+    background-image: linear-gradient(rgb(154,103,52), rgb(210,165,49));
+    height: 50vh;
+}
+.namaki-bg{
+    background-image: url('../img/toopi-4.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+.abi{
+    background-image: linear-gradient(rgb(8,7,42), rgb(26,32,142));
+    height: 50vh;
+}
+.limoyi-bg{
+    background-image: url('../img/green.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+.sabz{
+    background-image: linear-gradient(rgb(73,129,54), rgb(122,179,84));
+    height: 50vh;
+}
+.header{
+    margin-right: 3rem;
+}
+.header:hover{
+    background-color:rgb(27, 91, 79) ;
+    color: rgb(1, 255, 206);
+    border-radius: 3rem;
+}
+.pattern-white{
+    background-image: url('../img/pattern-white.png');
+}
+.df{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+}
+.df1{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    justify-content: end;
+}
