@@ -1,3 +1,8 @@
+@keyframes myfirst {
+    from {top: 0rem;}
+  to {top: 2rem;}
+
+  }
 .bodybg {
 
     background-image: linear-gradient(to right, #00af92, rgba(1, 254, 207));
@@ -33,7 +38,7 @@
 
 }
 
-.title {
+.title1 {
     color: white;
     background-color: rgb(71, 185, 235);
     text-align: center;
@@ -201,3 +206,67 @@
     height: 40vh;
     justify-content: end;
 }
+
+/* 
+responsive */
+
+@media screen and (max-width:576px){
+    .image-resp{
+        margin-top: 4rem;
+    }
+    .banner-section{
+        height: 12.5rem;
+    }
+    .flex-resp{
+        display: flex;
+        justify-content: center;
+    }
+    .image2-resp{
+        width: 20rem;
+        height: 15rem;
+    }
+    .title1{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .title2{
+        width: 60%;
+        margin: auto;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+    }
+    .card-resp{
+        margin-bottom: 2rem;
+        margin-left: 0.7rem;
+    }
+    .title3{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .pattern{
+        background-image: none;
+    }
+    .height-card{
+        height: 15rem;
+    }
+    .image3-resp{
+        width: 20rem;
+        position: relative;
+        animation-name: myfirst;
+        animation-duration: .5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .bg-resp{
+        height: 40rem;
+    }
+    .footer-resp{
+        height: auto;
+        padding-top: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+    
