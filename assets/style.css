@@ -268,5 +268,20 @@ responsive */
         display: flex;
         justify-content: center;
     }
+    .form-resp{
+        width: 70%;
+        margin: auto;
+    }
+    .btn-style4{
+        padding: 1rem;
+        width: 40%;
+        background-image: linear-gradient(to bottom right, rgb(71, 185, 235), rgb(43, 125, 160));
+        color: white;
+        border: none;
+        border-radius: 1rem;
+        margin-top: auto;
+        margin-left: 10rem;
+        margin-top: 3rem;
+    }
 }
     
