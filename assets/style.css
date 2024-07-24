@@ -255,7 +255,7 @@ responsive */
         width: 20rem;
         position: relative;
         animation-name: myfirst;
-        animation-duration: .5s;
+        animation-duration: .7s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
     }
@@ -282,6 +282,17 @@ responsive */
         margin-top: auto;
         margin-left: 10rem;
         margin-top: 3rem;
+    }
+    .check-resp{
+        display: flex;
+        justify-content: center;
+    }
+    .description{
+        text-align: center;
+        font-weight: 600;
+    }
+    .title2{
+        margin-top: 2rem;
     }
 }
     
