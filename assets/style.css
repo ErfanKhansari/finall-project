@@ -8,8 +8,12 @@
     background-image: linear-gradient(to right, #00af92, rgba(1, 254, 207));
 
 }
+html {
+    scroll-behavior: smooth;
+  }
+
 .backpic{
-    background-image: url('../img/asfalt-dark.png');
+    background-image: url('../assets/img/asfalt-dark.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,12 +28,7 @@
     border-radius: 3rem;
     box-shadow: 0 0 50px 1px black;
 }
-/* .banner-under{
-    background-image: url('../img/lgoo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-} */
+
 .description {
     background-color: white;
     padding: 2rem;
@@ -49,13 +48,13 @@
     margin-top: 2rem;
 }
 .pattern{
-    background-image: url('../img/pattern.png');
+    background-image: url('../assets/img/pattern.png');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position: center; */
 }
 .wave {
-    background-image: url("../img/wave.png");
+    background-image: url("../assets/img/wave.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -111,12 +110,12 @@
     margin-bottom: 5rem;
 }
 .ranch-bg{
-    background-image: url('../img/bg-banfash.webp');
+    background-image: url('../assets/img/bg-banfash.webp');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 100vh;
+    height: 60vh;
    
 }
 .banafsh{
@@ -149,36 +148,36 @@
     justify-content: space-around;
 }
 .golpar-bg{
-    background-image: url('../img/er-scaled.jpg');
+    background-image: url('../assets/img/er-scaled.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 100vh;
+    height: 60vh;
 }
 .zard{
     background-image: linear-gradient(rgb(154,103,52), rgb(210,165,49));
     height: 50vh;
 }
 .namaki-bg{
-    background-image: url('../img/toopi-4.jpg');
+    background-image: url('../assets/img/toopi-4.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 100vh;
+    height: 60vh;
 }
 .abi{
     background-image: linear-gradient(rgb(8,7,42), rgb(26,32,142));
     height: 50vh;
 }
 .limoyi-bg{
-    background-image: url('../img/green.jpg');
+    background-image: url('../assets/img/green.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 100vh;
+    height: 60vh;
 }
 .sabz{
     background-image: linear-gradient(rgb(73,129,54), rgb(122,179,84));
@@ -193,7 +192,7 @@
     border-radius: 3rem;
 }
 .pattern-white{
-    background-image: url('../img/pattern-white.png');
+    background-image: url('../assets/img/pattern-white.png');
 }
 .df{
     display: flex;
